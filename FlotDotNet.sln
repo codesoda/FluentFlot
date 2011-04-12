@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53F0A91A-E332-4E3D-8698-CD41765C190D}"
+	ProjectSection(SolutionItems) = preProject
+		config\local.properties.template.xml = config\local.properties.template.xml
+		config\local.properties.xml = config\local.properties.xml
+		project.build = project.build
+		utility.build = utility.build
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlotDotNet", "src\app\FlotDotNet\FlotDotNet.csproj", "{76C70274-E0B4-4517-ABDC-D45A1DC072BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlotDotNet.Tests", "src\tests\FlotDotNet.Tests\FlotDotNet.Tests.csproj", "{6B1A13A4-B48A-47DD-BDD8-600287841097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlotDotNet.Tests.Web", "src\tests\FlotDotNet.Tests.Web\FlotDotNet.Tests.Web.csproj", "{9B516AF8-A7CA-4EEB-8B64-25746D51F0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlotDotNet.Tests.Mvc", "src\tests\FlotDotNet.Tests.Mvc\FlotDotNet.Tests.Mvc.csproj", "{7C9D6DAC-D31F-491A-8F9F-A334D558D97D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C70274-E0B4-4517-ABDC-D45A1DC072BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C70274-E0B4-4517-ABDC-D45A1DC072BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C70274-E0B4-4517-ABDC-D45A1DC072BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C70274-E0B4-4517-ABDC-D45A1DC072BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1A13A4-B48A-47DD-BDD8-600287841097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1A13A4-B48A-47DD-BDD8-600287841097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1A13A4-B48A-47DD-BDD8-600287841097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1A13A4-B48A-47DD-BDD8-600287841097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B516AF8-A7CA-4EEB-8B64-25746D51F0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B516AF8-A7CA-4EEB-8B64-25746D51F0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B516AF8-A7CA-4EEB-8B64-25746D51F0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B516AF8-A7CA-4EEB-8B64-25746D51F0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9D6DAC-D31F-491A-8F9F-A334D558D97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9D6DAC-D31F-491A-8F9F-A334D558D97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9D6DAC-D31F-491A-8F9F-A334D558D97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9D6DAC-D31F-491A-8F9F-A334D558D97D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

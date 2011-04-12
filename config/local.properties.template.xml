@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<properties>
+	
+	<property name="svnToolsFolder" value="c:\Program Files\CruiseControl.NET\server" />
+	<property name="svn.exe" value="${svnToolsFolder}\svn.exe" />
+	<property name="Assembly.Version" value="10.0.0" />
+
+	<property name="debug" value="false" />
+	<property name="env.COMPUTERNAME" value="${environment::get-variable('COMPUTERNAME')}" />
+	<property name="framework.version" value="v2.0.50727" />
+	
+</properties>

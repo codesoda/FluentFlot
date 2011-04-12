@@ -1,0 +1,3 @@
+Adds a fluent interface in C# for defining flot.js configuration and data.
+
+Works great in ASP.NET /MVC
